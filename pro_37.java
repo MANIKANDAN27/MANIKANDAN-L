@@ -1,19 +1,19 @@
 public class Prime{
 public static void main(String[] args) {	
-int i1=366;
+int i=366;
 	int a[]={11,13,17,19,23,29,31,37,41,43,47,51,53,59,61,67,71,73,79,83,87,89,91,97};
 	for(int j=0;j<a.length;j++){
-		if(i1==a[j]){
+		if(i==a[j]){
 			System.out.println("1");
 		}
       }	
-	if(i1<22){
+	if(i<22){
 			System.out.println("-1");
 		}
 			for(int j=0;j<a.length;j++){
 				for(int k=0;k<a.length;k++){
 					int c=a[j]+a[k];
-				if(c==i1){
+				if(c==i){
 				System.out.println("2");
 								}
 				}
@@ -22,7 +22,7 @@ int i1=366;
 			for(int k=0;k<a.length;k++){
 				for(int l=0;l<a.length;l++){
 					int c=a[j]+a[k]+a[l];
-					if(c==i1){
+					if(c==i){
 						System.out.println("3");
 			
 					}
@@ -45,7 +45,7 @@ int i1=366;
 			for(int m=0;m<a.length;m++){
                for(int o=0;o<a.length;o++){
 				int c=a[j]+a[k]+a[l]+a[m]+a[o];
-			if(c==i1){
+			if(c==i){
 				System.out.println("5");
 			
 	             }
